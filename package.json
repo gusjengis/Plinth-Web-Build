@@ -1,0 +1,31 @@
+{
+  "name": "plinth-web-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "plinth-build": "./bin/plinth-build",
+    "plinth-dev": "./bin/plinth-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusjengis/Plinth-Web-Build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusjengis/Plinth-Web-Build/issues"
+  },
+  "homepage": "https://github.com/gusjengis/Plinth-Web-Build#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "live-server": "^1.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-checker": "^0.9.0"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
