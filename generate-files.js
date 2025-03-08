@@ -1,9 +1,8 @@
-
 const fs = require("fs");
 const path = require("path");
 
-const assetsDir = path.join(__dirname, "dist/assets");
-const outputFile = path.join(__dirname, "dist/files.json");
+const assetsDir = "dist/assets";
+const outputFile = "dist/files.json";
 
 // Get all `.js` and `.css` files
 fs.readdir(assetsDir, (err, files) => {

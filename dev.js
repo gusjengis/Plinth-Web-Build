@@ -1,8 +1,11 @@
+#!/usr/bin/env node
+
 const { execSync } = require("child_process");
 const path = require("path");
 
 // Get the path to the build script inside the package
 const buildScript = path.resolve(__dirname, "build.js");
+
 
 try {
     execSync("watchexec --version", { stdio: "ignore" });

@@ -1,11 +1,18 @@
 {
   "name": "plinth-web-build",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "bin": {
-    "plinth-build": "./bin/plinth-build",
-    "plinth-dev": "./bin/plinth-dev"
+    "plinth-build": "./build.js",
+    "plinth-dev": "./dev.js"
   },
+  "files": [
+    "./prep-index.js",
+    "./generate-files.js",
+    "./clean-files.js",
+    "./build.js",
+    "./dev.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gusjengis/Plinth-Web-Build.git"
