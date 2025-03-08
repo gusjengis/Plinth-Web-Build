@@ -1,4 +1,4 @@
-This npm package is part of my Plinth stack (See example at [Plinth-Hello-World](https://github.com/gusjengis/Plinth-Hello-World).
+This npm package is part of my Plinth stack (See example at [Plinth-Hello-World](https://github.com/gusjengis/Plinth-Hello-World).)
 
 This package exports two commands:
 
