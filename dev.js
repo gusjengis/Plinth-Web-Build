@@ -16,7 +16,7 @@ try {
 }
 
 execSync(
-    `concurrently "watchexec -w . --ignore target --ignore dist --ignore jsdist -- node ${buildScript}" "live-server dist"`,
+    `concurrently "watchexec -w . --ignore target --ignore dist --ignore jsdist --ignore index.html -- node ${buildScript}" "live-server dist"`,
     { stdio: "inherit" }
 );
 
