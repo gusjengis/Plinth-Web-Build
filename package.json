@@ -1,6 +1,6 @@
 {
   "name": "plinth-web-build",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "main": "index.js",
   "bin": {
     "plinth-build": "./build.js",
@@ -24,15 +24,10 @@
   },
   "homepage": "https://github.com/gusjengis/Plinth-Web-Build#readme",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^9.1.2",
     "live-server": "^1.2.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.2",
     "vite": "^6.2.0",
-    "vite-plugin-checker": "^0.9.0"
-  },
-  "dependencies": {
     "npm-run-all": "^4.1.5"
   }
 }
